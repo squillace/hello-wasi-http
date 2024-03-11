@@ -11,14 +11,13 @@
       "program": "wasmtime",
       "args": [
         "serve",
-        "-Scommon"
+        "-Scommon",
         "-D",
         "debug-info=y",
         "./target/wasm32-wasi/debug/hello_wasi_http.wasm"
       ],
       "cwd": "${workspaceFolder}",
       "preLaunchTask": "build hello_wasi_http.wasm"
-      "cwd": "${workspaceFolder}"
     }
   ]
 }
