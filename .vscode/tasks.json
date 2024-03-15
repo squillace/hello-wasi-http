@@ -5,6 +5,7 @@
           "label": "build hello_wasi_http.wasm",
           "type": "shell",
           "command": "cargo component build",
+
           "group": "build",
           "presentation": {
               "reveal": "always",
